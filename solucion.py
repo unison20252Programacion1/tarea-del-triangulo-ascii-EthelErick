@@ -8,7 +8,7 @@ def triangulo_simetrico(m: int, s: str) -> str:
         return
         
     #parte 1: triangulo creciente
-    for 1 in range(1,m+1):
+    for i in range(1,m+1):
         print(s*1)
     #paerte 2:triangulo decreciente
     for i in range(m-1,0,-1):
